@@ -1,0 +1,42 @@
+DEBUG: object_write called with len=16
+DEBUG: header='blob 16', len=8
+DEBUG: computed hash=d58213f5dbe0629b5c2fa28e5c7d4213ea09227ed0221bbe9db5e5c4b9aafc12
+DEBUG: obj_path=.pes/objects/d5/8213f5dbe0629b5c2fa28e5c7d4213ea09227ed0221bbe9db5e5c4b9aafc12
+DEBUG: shard_dir=.pes/objects/d5
+DEBUG: temp file=.pes/objects/d5/tmp_UmIuYR
+DEBUG: successfully wrote object
+DEBUG read: trying to open .pes/objects/d5/8213f5dbe0629b5c2fa28e5c7d4213ea09227ed0221bbe9db5e5c4b9aafc12
+DEBUG read: file size=24
+DEBUG read: type=blob
+DEBUG read: data_size=16, expected_len=16
+DEBUG read: SUCCESS
+DEBUG: object_write called with len=18
+DEBUG: header='blob 18', len=8
+DEBUG: computed hash=25ef1fa07ea68a52f800dc80756ee6b7ae34b337afedb9b46a1af8e11ec4f476
+DEBUG: obj_path=.pes/objects/25/ef1fa07ea68a52f800dc80756ee6b7ae34b337afedb9b46a1af8e11ec4f476
+DEBUG: shard_dir=.pes/objects/25
+DEBUG: temp file=.pes/objects/25/tmp_bT6Owo
+DEBUG: successfully wrote object
+DEBUG: object_write called with len=18
+DEBUG: header='blob 18', len=8
+DEBUG: computed hash=25ef1fa07ea68a52f800dc80756ee6b7ae34b337afedb9b46a1af8e11ec4f476
+DEBUG: object already exists, skipping
+DEBUG: object_write called with len=15
+DEBUG: header='blob 15', len=8
+DEBUG: computed hash=2a594d39232787fba8eb7287418aec99c8fc2ecdaf5aaf2e650eda471e566fcf
+DEBUG: obj_path=.pes/objects/2a/594d39232787fba8eb7287418aec99c8fc2ecdaf5aaf2e650eda471e566fcf
+DEBUG: shard_dir=.pes/objects/2a
+DEBUG: temp file=.pes/objects/2a/tmp_fVHsMS
+DEBUG: successfully wrote object
+DEBUG read: trying to open .pes/objects/2a/594d39232787fba8eb7287418aec99c8fc2ecdaf5aaf2e650eda471e566fcf
+DEBUG read: file size=23
+DEBUG read: hash mismatch!
+  Expected: 2a594d39232787fba8eb7287418aec99c8fc2ecdaf5aaf2e650eda471e566fcf
+  Computed: e8bc8eab9a9984d8fc250a68885762c655f56d696a435b77a4abe16fba1361b2
+Stored blob with hash: d58213f5dbe0629b5c2fa28e5c7d4213ea09227ed0221bbe9db5e5c4b9aafc12
+Object stored at: .pes/objects/d5/8213f5dbe0629b5c2fa28e5c7d4213ea09227ed0221bbe9db5e5c4b9aafc12
+PASS: blob storage
+PASS: deduplication
+PASS: integrity check
+
+All Phase 1 tests passed.
